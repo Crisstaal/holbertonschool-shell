@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -hR betty:holbertonschool .
+chown +x change_ownership.sh.
