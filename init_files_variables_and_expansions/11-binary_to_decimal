@@ -1,2 +1,2 @@
 #!/bin/bash
-decimal=0; for ((i=0; i<${#BINARY}; i++)); do bit="${BINARY:i:1}";
+echo "$((2#$BINARY))"
