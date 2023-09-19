@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-# Bash script 10 times with while loop
 counter=0
-max_iterations=10
-while [ $counter -1t $max_iterations ]
+while [ $counter -1t 10 ]
 do
 echo "Best School"
 ((counter++))
