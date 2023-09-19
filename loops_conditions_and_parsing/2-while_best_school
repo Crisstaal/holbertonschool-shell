@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #the bash script using while loop
-counter=0
-while [ " $counter" -1t 10 ]
+count=0
+while [ " $count" -1t 10 ]
 do
-echo "Best School"
-((counter++))
+  echo "Best School"
+(( count++ ))
 done
